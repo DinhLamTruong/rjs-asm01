@@ -1,0 +1,116 @@
+/* css thông tin khách sạn header */
+.dHotelContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.dHotelWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.dHotelTitle {
+  font-size: 24px;
+}
+.hotelAdress {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hoteldistance {
+  color: #0071c2;
+  font-weight: 500;
+}
+.hotelPrice {
+  color: green;
+  font-weight: 500;
+}
+
+/* css button Reserve or Book Now!   */
+.hotelBookNow {
+  position: absolute;
+  right: 0;
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* css image */
+.dHotelImgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.dHotelImgWrapper {
+  width: 33%;
+}
+.dHotelImg {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* css overview hotel */
+.dHotelDescription {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+.hotelTitle {
+  margin-bottom: 20px;
+}
+.hotelDescription {
+  font-size: 14px;
+}
+.dHotelContent {
+  flex: 3;
+}
+
+/* css phần tóm tắt hotle */
+.dHotelSummary {
+  flex: 1;
+  background-color: #ebfeff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.dHotelSummary > h4 {
+  color: #555;
+  font-size: 18px;
+}
+.dHotelSummary > p {
+  font-size: 14px;
+}
+.dHotelPrice {
+  display: flex;
+  gap: 10px;
+  font-size: 24px;
+}
+.dprice {
+  font-weight: bold;
+}
+.subPrice {
+  font-weight: 300;
+}
+
+/* css button phần tóm tắt */
+.btnHotelBookNow {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}

@@ -1,0 +1,69 @@
+/* css title search */
+.searchTitle {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+.listSearch {
+  flex: 1;
+  background-color: #febb02;
+  border-radius: 10px;
+  padding: 10px;
+  position: sticky;
+  top: 10px;
+  height: max-content;
+}
+
+/* css content search */
+.listSearchItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.listSearchItem > label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* css thẻ input destination */
+.listSearchItem > input {
+  height: 30px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+/* css check-in date */
+.checkInText {
+  background-color: white;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* css phần options */
+.listOption {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  margin-left: 10px;
+}
+
+.listOption > input {
+  width: 50px;
+}
+
+/* css button search */
+.btnSeach {
+  width: 100%;
+  background-color: #0071c2;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}

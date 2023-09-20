@@ -1,0 +1,33 @@
+/* css phần hiển thị thành phố */
+.featuredContainer {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  margin-top: 50px;
+}
+.featured {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1024px;
+  gap: 30px;
+}
+
+/* css div chứa từng thành phố */
+.featuredItem {
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 250px;
+}
+.featuredImg {
+  width: 100%;
+  object-fit: cover;
+}
+.featuredTitles {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}

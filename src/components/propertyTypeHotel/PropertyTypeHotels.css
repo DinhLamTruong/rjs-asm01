@@ -1,0 +1,34 @@
+.property {
+  display: flex;
+  justify-content: center;
+}
+.propertyContainer {
+  display: flex;
+  max-width: 1024px;
+  justify-content: space-around;
+}
+.propertyItem {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.propertyHotel {
+  display: flex;
+  gap: 20px;
+}
+.propertyImg {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.propertyTitle {
+  margin: 20px 0;
+}
+.TypeHotel {
+  font-size: 18px;
+}
+.count {
+  font-size: 14px;
+  font-weight: 300;
+}

@@ -1,0 +1,109 @@
+.listSearchResult {
+  flex: 3;
+}
+.searchItem {
+  display: flex;
+  gap: 10px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+/* css thẻ img */
+.searchImage {
+  width: 200px;
+  height: 200px;
+}
+
+/* css content details*/
+.searchDetails {
+  display: flex;
+  gap: 10px;
+  flex: 2;
+  flex-direction: column;
+}
+.detailTitle {
+  color: #0071c2;
+  font-size: 20px;
+}
+.distance {
+  font-size: 12px;
+}
+.taxeOption {
+  background-color: #008009;
+  max-width: max-content;
+  padding: 2px;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+}
+.description {
+  font-size: 14px;
+  font-weight: bold;
+}
+.type {
+  font-size: 12px;
+  color: #008009;
+  font-weight: 600;
+}
+.cancel {
+  font-size: 14px;
+  color: #008009;
+  font-weight: bold;
+}
+.cancelSubTitle {
+  font-size: 14px;
+  color: #008009;
+  font-weight: 400;
+}
+
+/* css sub content */
+.searchDescription {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+  justify-content: space-between;
+}
+.searchRate {
+  display: flex;
+  justify-content: space-between;
+}
+.rateText {
+  font-weight: 600;
+}
+.btnRate {
+  border: none;
+  color: white;
+  background-color: #003580;
+  padding: 6px;
+  font-weight: bold;
+}
+.searchPrice {
+  font-size: 24px;
+  font-weight: 600;
+}
+.desPrice {
+  font-size: 14px;
+  color: gray;
+}
+.searchText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4px;
+  text-align: right;
+}
+
+/* css button check */
+.btnCheck {
+  border: none;
+  padding: 10px 5px;
+  color: white;
+  background-color: #0071c2;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}

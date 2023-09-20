@@ -1,0 +1,47 @@
+.mail {
+  margin-top: 60px;
+  background-color: #003580;
+  color: white;
+}
+.mail p,
+.mail h2,
+.mail input {
+  text-align: center;
+}
+.mail p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.mail h2 {
+  padding-top: 30px;
+  margin-bottom: 18px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* css phần nhập liệu */
+.mailInput {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 60px;
+}
+.mail input {
+  width: 280px;
+  padding: 14px 10px;
+  text-align: start;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+.mail input:focus {
+  outline: none;
+}
+
+/* css button subscribe */
+.mail button {
+  padding: 14px 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #0071c2;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.listSearchContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.listSearchWrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1024px;
+  gap: 20px;
+}

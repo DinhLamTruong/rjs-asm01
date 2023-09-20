@@ -1,0 +1,29 @@
+.navigation__link {
+  display: flex;
+  margin: 20px 0;
+  justify-content: center;
+}
+.navigationWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* css ul */
+.link__lists {
+  list-style: none;
+  color: #006ce4;
+  padding-left: 0;
+}
+
+/* css li */
+.navigaList {
+  margin-bottom: 12px;
+}
+
+/* css thẻ a */
+.link {
+  text-decoration: none;
+  color: #003580;
+}
